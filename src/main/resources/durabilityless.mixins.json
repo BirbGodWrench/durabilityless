@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.wren.durabilityless.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "DurabilityLessMixin",
+    "DurabilityLessP2Mixin",
+    "MendingMixin",
+    "RuinedDefensesMixin",
+    "TridentMixin",
+    "UnbreakingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

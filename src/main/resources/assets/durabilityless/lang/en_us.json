@@ -1,0 +1,20 @@
+{
+  "effect.durabilityless.frost": "Frost",
+  "effect.durabilityless.ruineddefenses": "Ruined Defenses",
+
+
+  "enchantment.durabilityless.frostaspect":"Frost Aspect",
+  "enchantment.durabilityless.protectingblade":"Protecting Blade",
+  "enchantment.durabilityless.sniper":"Sniper",
+  "enchantment.durabilityless.swiftstrike":"Swift Strike",
+  "enchantment.durabilityless.sharpsoul":"Sharp Soul",
+  "enchantment.durabilityless.vampiric":"Vampiric",
+  "enchantment.durabilityless.jaggedblade":"Jagged Blade",
+
+  "enchantment.durabilityless.truethorns":"True Thorns",
+  "enchantment.durabilityless.speedyarmor":"Speedy Armor",
+
+
+  "item.durabilityless.soulreapersythe":"Soul Reaper's Scythe",
+  "item.durabilityless.kunai":"Kunai"
+}

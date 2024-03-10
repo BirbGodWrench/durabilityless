@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "durabilityless",
+	"version": "${version}",
+	"name": "DurabilityLess",
+	"description": "DurabilityLess Fixes Durability!",
+	"authors": [
+		"Wren!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/durabilityless/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.wren.durabilityless.DurabilityLess"
+		],
+		"client": [
+			"net.wren.durabilityless.DurabilityLessClient"
+		],
+		"fabric-datagen": [
+			"net.wren.durabilityless.DurabilityLessDataGenerator"
+		]
+	},
+	"mixins": [
+		"durabilityless.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
