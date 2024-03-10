@@ -6,7 +6,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.wren.durabilityless.enchantment.custom.*;
-import net.wren.durabilityless.potioneffects.custom.BleedingEffect;
 
 import static net.wren.durabilityless.DurabilityLess.MOD_ID;
 
@@ -25,9 +24,9 @@ public class ModEnchantments {
     public static final Enchantment Vampiric = new VampiricEnchant(
             EquipmentSlot.MAINHAND, EquipmentSlot.OFFHAND);
     public static final Enchantment TrueThorns = new TrueThornsEnchant(
-            EquipmentSlot.CHEST,EquipmentSlot.FEET,EquipmentSlot.HEAD,EquipmentSlot.LEGS);
+            EquipmentSlot.CHEST, EquipmentSlot.FEET, EquipmentSlot.HEAD, EquipmentSlot.LEGS);
     public static final Enchantment SpeedyArmor = new SwiftnessEnchant(
-            EquipmentSlot.CHEST,EquipmentSlot.FEET,EquipmentSlot.HEAD,EquipmentSlot.LEGS);
+            EquipmentSlot.CHEST, EquipmentSlot.FEET, EquipmentSlot.HEAD, EquipmentSlot.LEGS);
     public static final Enchantment JaggedBlade = new JaggedBladeEnchant(
             EquipmentSlot.MAINHAND);
 
