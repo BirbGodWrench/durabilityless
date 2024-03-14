@@ -10,7 +10,6 @@ import net.wren.durabilityless.enchantment.custom.*;
 import static net.wren.durabilityless.DurabilityLess.MOD_ID;
 
 public class ModEnchantments {
-
     public static final Enchantment FrostAspect = new FrostAspectEnchant(
             EquipmentSlot.MAINHAND);
     public static final Enchantment ProtectingBlade = new ProtectingBladeEnchant(
