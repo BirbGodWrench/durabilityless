@@ -5,7 +5,7 @@ import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.entity.EntityGroup;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ItemStack;
-import net.wren.durabilityless.item.custom.SoulScytheItem;
+import net.wren.durabilityless.item.custom.LivingSwordItem;
 
 public class SharpSoulEnchant extends Enchantment {
     public SharpSoulEnchant(EquipmentSlot... slotTypes) {
@@ -24,6 +24,6 @@ public class SharpSoulEnchant extends Enchantment {
 
     @Override
     public boolean isAcceptableItem(ItemStack stack) {
-        return stack.getItem() instanceof SoulScytheItem;
+        return stack.getItem() instanceof LivingSwordItem;
     }
 }
